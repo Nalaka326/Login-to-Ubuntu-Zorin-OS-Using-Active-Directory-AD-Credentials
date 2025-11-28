@@ -1,9 +1,5 @@
 # Login to Ubuntu/Zorin OS Using Active Directory (AD) Credentials
 
-**Author:** Nalaka326  
-**Last Updated:** November 2025  
-**Tested On:** Zorin OS 18 Core / Ubuntu Server 24.04
-
 ---
 
 ## ✔️ Prerequisites
@@ -209,5 +205,7 @@ uid=611022138(usernetop3) gid=611000513(domain users) groups=611000513(domain us
 
 ---
 
-**Made with ❤️ by Nalaka326**
+**Author:** Nalaka326  
+**Last Updated:** November 2025  
+**Tested On:** Zorin OS 18 Core / Ubuntu Server 24.04
 
