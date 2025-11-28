@@ -69,6 +69,7 @@ Expected format:
 ```
 usernetop3:*:611022138:611000513:Data Network Section op 3:/home/usernetop3:/bin/bash
 ```
+Then domain integration is working.
 
 ---
 
