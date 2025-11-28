@@ -96,6 +96,11 @@ During setup:
 ## 2️⃣ Test Kerberos Login
 ```bash
 kinit usernetop3@MYDOMAIN.LK
+```
+Enter your AD password:
+
+Confirm with:
+```bash
 klist
 ```
 You should see a valid ticket.
