@@ -167,7 +167,7 @@ su - usernetop3@mydomain.lk
    usernetop3
    ```
    (Only username. because use_fully_qualified_names=False in sssd.conf)
-4. Enter AD password
+4. Enter AD password:
 
 ### Verify User Info
 ```bash
