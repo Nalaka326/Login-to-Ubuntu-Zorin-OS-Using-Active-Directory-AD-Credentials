@@ -1,7 +1,5 @@
 # Login to Ubuntu/Zorin OS Using Active Directory (AD) Credentials
 
----
-
 ## ✔️ Prerequisites
 - Windows Server Active Directory must be working
 - Ubuntu/Zorin client DNS **must point to AD DNS**
