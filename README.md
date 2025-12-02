@@ -176,7 +176,11 @@ Restart:
 ```bash
 sudo systemctl restart sssd
 ```
-
+Flush SSSD cache
+```bash
+sudo sss_cache -E
+sudo systemctl restart sssd
+```
 ---
 
 # Test Login
