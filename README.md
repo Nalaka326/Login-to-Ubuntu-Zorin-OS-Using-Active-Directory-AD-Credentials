@@ -108,6 +108,9 @@ You should see a valid ticket.
 ## 3️⃣ Check SSSD status
 ```bash
 sudo systemctl status sssd
+```
+If not active, run:
+```bash
 sudo systemctl restart sssd
 ```
 ## 4️⃣ Insert the NSS Configuration Step
