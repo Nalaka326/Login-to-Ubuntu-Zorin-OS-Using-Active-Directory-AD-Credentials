@@ -129,6 +129,11 @@ netgroup:       nis sss
 automount:      sss
 
 ```
+If sss is missing → add it, save, then restart:
+
+```bash
+sudo systemctl restart sssd
+```
 ---
 
 # Configure SSSD
