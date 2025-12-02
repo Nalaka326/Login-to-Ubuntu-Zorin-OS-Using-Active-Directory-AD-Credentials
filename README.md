@@ -222,7 +222,7 @@ uid=611022138(usernetop3) gid=611000513(domain users) groups=611000513(domain us
 
 | Tool / Service | Purpose |
 |----------------|---------|
-| **SSSD** | Authentication + user info retrieval from AD |
+| **NSS/SSSD** | Authentication + user info retrieval from AD |
 | **realmd** | Domain discovery and join helper |
 | **adcli** | Performs actual join to AD |
 | **Kerberos (krb5-user)** | Secure authentication and ticketing |
