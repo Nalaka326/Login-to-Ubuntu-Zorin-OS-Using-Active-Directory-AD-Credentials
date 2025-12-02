@@ -164,6 +164,7 @@ use_fully_qualified_names = False
 cache_credentials = True
 ad_site = Default-First-Site-Name
 ```
+If file is missing, SSSD cannot return users.
 
 Set correct permissions:
 ```bash
