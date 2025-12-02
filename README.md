@@ -109,7 +109,22 @@ You should see a valid ticket.
 ```bash
 sudo systemctl restart sssd
 ```
+## "4" Insert the NSS Configuration Step
+```bash
+sudo nano /etc/nsswitch.conf
+```
+Add or confirm this section:
+```bash
+passwd:         files systemd sss
+group:          files systemd sss
+shadow:         files systemd sss
+gshadow:        files systemd
 
+services:       db files sss
+netgroup:       nis sss
+automount:      sss
+
+```
 ---
 
 # Configure SSSD
