@@ -63,6 +63,10 @@ login-formats: %U@MYDOMAIN.LK
 ## 6. Test Domain User Lookup
 Example: usernetop3
 ```bash
+getent passwd usernetop3
+```
+or
+```bash
 getent passwd usernetop3@mydomain.lk
 ```
 Expected format:
