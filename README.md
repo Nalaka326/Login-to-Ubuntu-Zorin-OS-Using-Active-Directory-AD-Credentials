@@ -101,6 +101,10 @@ During setup:
 ```bash
 kinit usernetop3@MYDOMAIN.LK
 ```
+Or:
+```bash
+kinit usernetop3
+```
 Enter your AD password:
 
 Confirm with:
