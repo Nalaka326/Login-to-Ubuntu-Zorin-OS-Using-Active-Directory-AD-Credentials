@@ -146,12 +146,17 @@ sudo systemctl restart sssd
 
 # Configure SSSD
 
+Backup sssd.conf file:
+```bash
+cp /etc/sssd/sssd.conf /etc/sssd/sssd.conf.bkp
+```
 Edit SSSD configuration:
 ```bash
 sudo nano /etc/sssd/sssd.conf
 ```
 
 Recommended config:
+* Please replace 'mydomain.lk' with your own domain in the configuration.
 ```ini
 [sssd]
 services = nss, pam
