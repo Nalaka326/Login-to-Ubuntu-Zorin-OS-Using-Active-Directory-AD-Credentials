@@ -88,7 +88,7 @@ sudo systemctl restart sssd
 
 ---
 
-# Kerberos Configuration
+## 8. Kerberos Configuration
 
 ## 1️⃣ Install Kerberos Client
 ```bash
@@ -144,7 +144,7 @@ sudo systemctl restart sssd
 ```
 ---
 
-# Configure SSSD
+## 9. Configure SSSD
 
 Backup sssd.conf file:
 ```bash
@@ -195,7 +195,7 @@ sudo sss_cache -E
 ```
 ---
 
-# Test Login
+## 10. Test Login
 
 ### CLI Login
 ```bash
@@ -216,7 +216,7 @@ su - usernetop3@mydomain.lk
    (Only username. because use_fully_qualified_names=False in sssd.conf)
 4. Enter AD password:
 
-### Verify User Info
+## 11. Verify User Info
 ```bash
 id usernetop3
 ```
